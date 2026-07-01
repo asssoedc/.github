@@ -1,0 +1,30 @@
+name: 🐛 Bug
+description: Signaler un problème ou un comportement anormal
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description du problème
+      description: Que se passe-t-il ?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Comment déclencher ce bug ?
+      placeholder: |
+        1. Aller sur...
+        2. Cliquer sur...
+        3. Constater...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+      description: Que devrait-il se passer normalement ?
+    validations:
+      required: false

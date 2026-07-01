@@ -1,0 +1,19 @@
+name: ✨ Nouvelle fonctionnalité
+description: Proposer une amélioration ou une nouvelle fonctionnalité
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Que souhaites-tu ajouter ou améliorer ?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Pourquoi
+      description: Quel problème ça résout, ou en quoi c'est utile pour l'association ?
+    validations:
+      required: false
