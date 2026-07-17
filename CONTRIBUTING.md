@@ -28,13 +28,6 @@ Règles :
 - Toujours créée à partir de `main` à jour (`git pull` avant de créer la branche)
 - Supprimée après le merge de la pull request associée
 
-### Étapes
-
-1. Crée ta branche selon la nomenclature ci-dessus
-2. Fais tes modifications avec des commits clairs et atomiques
-3. Ouvre une pull request vers `main` en remplissant le template
-4. Attends une revue avant de merger (même seul, ça laisse une trace des décisions)
-
 ## Convention de commits
 
 Format recommandé : `type: description courte`
